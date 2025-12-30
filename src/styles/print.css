@@ -1,0 +1,37 @@
+@media print {
+
+    body {
+        background: white;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12pt;
+    }
+    /* skrytí nepotřebných prvků */
+    header{
+        display: none;
+    }
+    /* nastavení okrajů a velikost stránky */
+    @page{
+        size: A4 portrait;
+        margin: 2cm;
+    }
+    /* zmenšení obrázků */
+    img{
+        max-width: 400pt;
+    }
+    /* rozepsání odkazů */
+
+    a::after{
+        content: " (" attr(href) ") ";
+    }
+    /* pagebreaks */
+    h1, h2, h3, h4, h5, h6{
+        page-break-after: avoid;
+    }
+    /* widows a orphans*/
+    p{
+        orphans: 3;
+        widows: 3;
+    }
+
+}
