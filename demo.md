@@ -1,0 +1,7 @@
+![E-shop1](public/images/demoImages/E-shop1.png)
+![E-shop2](public/images/demoImages/E-shop2.png)
+![E-shop3](public/images/demoImages/E-shop3.png)
+![E-shop4](public/images/demoImages/E-shop4.png)
+![E-shop5](public/images/demoImages/E-shop5.png)
+![E-shop6](public/images/demoImages/E-shop6.png)
+![E-shop7](public/images/demoImages/E-shop7.png)
